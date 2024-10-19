@@ -80,7 +80,7 @@ nav a:hover{
 }
  @keyframes tracking-in-expand1{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
-@media all and (max-width:320px){
+@media all and (max-width:350px){
 
     nav{
         flex-direction: column;
