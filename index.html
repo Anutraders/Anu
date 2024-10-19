@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/anu logo.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./input.css">
+    <link href="./output.css" rel="stylesheet">
+    <title>Anu-Traders</title>
+</head>
+<body>
+    <nav class="bg-[#f3e081] mt-0">
+        <div class="logo">
+            <a href="#home"><img src="./img/anu logo.ico" class="h-10 w-10 mb-3 mr-0 ml-0 mt-0 md:m-2 lg:m-2 xlg:m-2"></a>
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">Export</a></li>
+            <li><a href="./project.html">Products List</a></li>
+            <li><a href="./contact.html">contact</a></li>
+        </ul>
+            <div class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <div class="flex flex-col justify-center align-middle md:flex-col lg:flex-row xlg:flex-row">
+        <div class="w-full  p-8 md:w-1/2 md:p-0 lg:w-1/2 lg:p-0 xlg:w-1/2 xlg:p-0">
+            <img src="./img/logo.png" class="h-50 w-50 " alt="logo">
+        </div>
+        <div class="w-full flex justify-center align-middle md:w-1/2   lg:w-1/2  xlg:w-1/2 ">
+            <div class="mt-3 mr-3 flex flex-col justify-center align-middle">
+                <h1 class="tracking-in-expand text-center font-extrabold  text-white text-base mt-5  md:text-4xl lg:text-4xl xlg:text-4xl"><span>Hi👋🏻, I'm T.J.Surya</span></h1>
+                <h1 class=" tracking-in-expand1 text-center font-extrabold text-white mt-4 "><span>B.E.Electronics And Communication Engineering</span> <br><span> + </span><br> <span>Farmer</span></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        const menu = document.querySelector('.menu');
+        const menuList = document.querySelector('nav ul');
+        menu.addEventListener('click',()=>{
+            menuList.classList.toggle('showmenu');
+        });
+    </script>
+</body>
+</html>
